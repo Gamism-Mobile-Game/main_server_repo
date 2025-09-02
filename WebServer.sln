@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameDB", "GameDB\GameDB.csproj", "{AF67477C-A4C2-473A-8C66-6CED83F6AB77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamism-Server", "Gamism-Server\Gamism-Server.csproj", "{B17F6514-914F-4E35-AA75-E7FBFC396674}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamism-Server", "Gamism-Server\Gamism-Server.csproj", "{D944A1C7-D907-450D-AF28-622E7698EE9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AF67477C-A4C2-473A-8C66-6CED83F6AB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF67477C-A4C2-473A-8C66-6CED83F6AB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF67477C-A4C2-473A-8C66-6CED83F6AB77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B17F6514-914F-4E35-AA75-E7FBFC396674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B17F6514-914F-4E35-AA75-E7FBFC396674}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B17F6514-914F-4E35-AA75-E7FBFC396674}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B17F6514-914F-4E35-AA75-E7FBFC396674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D944A1C7-D907-450D-AF28-622E7698EE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D944A1C7-D907-450D-AF28-622E7698EE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D944A1C7-D907-450D-AF28-622E7698EE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D944A1C7-D907-450D-AF28-622E7698EE9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
