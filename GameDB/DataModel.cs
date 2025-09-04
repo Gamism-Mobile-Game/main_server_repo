@@ -2,12 +2,19 @@
 
 namespace GameDB
 {
-    [Table("Test")]
-    public class TestDb
+    public enum ProviderType
     {
-        // Convention : [클래스]Id로 명명하면 PK
-        public int TestDbId { get; set; }
-        public string Name  { get; set; }
+        None = 0,
+        Guest = 1,
+        Google = 2,
+    }
+
+    [Table("Account")]
+    public class AccountDb
+    {
+        public int AccountDbId { get; set; } // PK
+        public string LoginProviderUserId { get; set; } = string.Empty;
+        public ProviderType LoginProviderType { get; set; }
     }
 }
 

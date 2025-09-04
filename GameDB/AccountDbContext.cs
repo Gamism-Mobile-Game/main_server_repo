@@ -3,13 +3,13 @@ using Microsoft.Extensions.Logging;
 
 namespace GameDB
 {
-    public class GameDbContext : DbContext
+    public class AccountDbContext : DbContext
     {
-        public DbSet<TestDb> Tests { get; set; }
+        public DbSet<AccountDb> Accounts { get; set; }
 
         static readonly ILoggerFactory _logger = LoggerFactory.Create(builder => { builder.AddConsole(); });
         
-        public GameDbContext(DbContextOptions<GameDbContext> options)
+        public AccountDbContext(DbContextOptions<AccountDbContext> options)
             :base(options)
         {
             

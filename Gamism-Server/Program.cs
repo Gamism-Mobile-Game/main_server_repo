@@ -1,4 +1,5 @@
 using GameDB;
+using Gamism_Server.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Gamism_Server
@@ -17,8 +18,11 @@ namespace Gamism_Server
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             
-            builder.Services.AddDbContext<GameDbContext>(options =>
+            builder.Services.AddDbContext<AccountDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddSingleton<AccountService>();
+            builder.Services.AddScoped<AccountService>();
             
             var app = builder.Build();
 
